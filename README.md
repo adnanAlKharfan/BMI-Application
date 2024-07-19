@@ -1,27 +1,64 @@
+# BMI Calculator
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
-#  BMI Calculator
-
-## Our Goal
-
-The goal of this tutorial is to learn more about Optionals, solidify your understanding of the MVC design pattern and to introduce the concept of Classes. We’ll compare objects created from classes with instances of Structs that we learnt about earlier. 
-
-## What you will create
-
-By the end of the module, you will have made a Body Mass Index calculator. Based on the user’s weight and height it will calculate their body mass and give a piece of health advice depending on whether if they have eaten too many pies or if they need to eat more pies. 
-
-## What you will learn
-
-* How to create multi-screen apps with animated navigation.
-* Optional binding, optional chaining and the nil coalescing operator.
-* How to create classes and difference between classes and structs. 
-* Pass by value vs. pass by reference. 
-* Formatting Strings. 
-* Color literals.
+This repository contains the source code for BMI Calculator, an iOS application built with Swift. The app allows users to calculate their Body Mass Index (BMI) based on their weight and height and provides health advice accordingly.
 
 
+## Introduction
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+The BMI Calculator app helps users determine their BMI and gives health advice based on the calculated BMI. It demonstrates key concepts in iOS development, such as optionals, the MVC design pattern, and the use of classes.
 
-![End Banner](Documentation/readme-end-banner.png)
+## Features
+
+- BMI Calculation: Input weight and height to calculate BMI.
+  
+- Health Advice: Get personalized health advice based on the BMI result.
+  
+- Animated Navigation: Smooth transitions between screens.
+  
+## Requirements
+
+- iOS 13.0+
+  
+- Xcode 11+
+  
+## Installation
+
+To set up the project on your local machine, follow these steps:
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/adnanAlKharfan/BMI-Application.git
+```
+
+2. Navigate to the project directory:
+
+```sh
+cd BMI-Application
+```
+
+3. Open the project in Xcode:
+
+```sh
+open "BMI Calculator.xcodeproj"
+```
+
+4. Build and run the project:
+
+- Select the target device (e.g., iPhone simulator or connected device) and click on the run button or press Cmd + R to build and run the app.
+
+## Usage
+
+1. Launch the app:
+   Open the BMI Calculator app on your iOS device.
+
+2. Enter Details:
+   Input your weight and height.
+
+3. Calculate BMI:
+   Press the "Calculate" button to see your BMI and get health advice.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
